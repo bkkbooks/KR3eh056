@@ -1,0 +1,47 @@
+canonical_identifier: bkk:krp/KR3eh056/v1
+canonical_location: https://kanripo.org/bkk/KR3eh056/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 痢症三字訣
+  identifiers:
+    krp: KR3eh056
+  tags:
+    kr-categories: KR3eh
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eh056.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3eh056_000.yaml, hash: 'sha256:6cf92e82db98c7683b92f5fd88bd637662e0728b2db7e1c4912ab955e7d5ed23'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eh056_000.markers.yaml, hash: 'sha256:0d05add986c74ebd4400d679869ab072a20254f49b4c46f9c1c61f5c25e0f167'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eh056_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 1912
+  label: 正文
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eh056_jc_000-d3.h1s1
+    span:
+    - body
+    - 1912
+    - 3298
+  label: 附方
+  type: section
+  level: 1
+hash: sha256:ed44830b6e39a6f34d6ccda23102d9d12fb582b560590805b69c9884805379d3
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
